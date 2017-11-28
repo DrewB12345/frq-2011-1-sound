@@ -11,4 +11,5 @@ comment3.target=void\ trimSilenceFromBeginning()
 comment3.text=\r\n\ Removes\ the\ zeros\ at\ the\ beginning\ of\ the\ array\r\n\r\n
 comment4.params=
 comment4.target=void\ printArray()
+comment4.text=\r\n\ Prints\ an\ array\r\n
 numComments=5

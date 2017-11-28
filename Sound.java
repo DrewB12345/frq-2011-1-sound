@@ -59,6 +59,9 @@ public class Sound {
         samples = result;
     }
     
+    /**
+     * Prints an array
+     */
     public void printArray() {
         for (int i = 0; i < samples.length; i++) {
             if (i > 0) {
