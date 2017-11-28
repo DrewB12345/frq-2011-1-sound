@@ -17,6 +17,8 @@ public class Tester
         Sound s3 = new Sound(samples3);
         
         System.out.println(s1.limitAmplitude(2000));
+        s1.printArray();
         s2.trimSilenceFromBeginning();
+        s2.printArray();
     }
 }

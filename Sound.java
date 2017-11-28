@@ -31,15 +31,7 @@ public class Sound {
                samples[i] = (0-limit);
            }
        }
-       
-       for (int i = 0; i < samples.length; i++) {
-           if (i > 0) {
-              System.out.print(", ");
-           }
-           System.out.print(samples[i]);
-       }
-       System.out.println();
-       
+              
        return count;
     }
     
@@ -65,7 +57,9 @@ public class Sound {
             result[i - count] = samples[i];
         }
         samples = result;
-        
+    }
+    
+    public void printArray() {
         for (int i = 0; i < samples.length; i++) {
             if (i > 0) {
                System.out.print(", ");

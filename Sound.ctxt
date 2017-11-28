@@ -9,4 +9,6 @@ comment2.text=\r\n\ Finds\ each\ value\ in\ the\ array\ that\ surpasses\ the\ li
 comment3.params=
 comment3.target=void\ trimSilenceFromBeginning()
 comment3.text=\r\n\ Removes\ the\ zeros\ at\ the\ beginning\ of\ the\ array\r\n\r\n
-numComments=4
+comment4.params=
+comment4.target=void\ printArray()
+numComments=5
